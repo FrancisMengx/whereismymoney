@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/hintAccountName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:text="Account Name:" />
+
+    <EditText
+        android:id="@+id/addAccountName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hintAccountName"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:hint="Account Name" />
+
+    <TextView
+        android:id="@+id/hintStartingAmount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addAccountName"
+        android:layout_marginLeft="3dp"
+        android:text="Add Starting Amount:" />
+
+    <EditText
+        android:id="@+id/addStartingAmount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hintStartingAmount"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:hint="Starting Amount" />
+
+    <Button
+        android:id="@+id/submitNewAccount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addStartingAmount"
+        android:text="Submit" />
+
+</RelativeLayout>

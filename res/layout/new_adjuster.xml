@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/adjusterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:hint="Put Adjuster Name"
+        android:scaleX="0.8"
+        android:scaleY="0.8" />
+
+    <EditText
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adjusterName"
+        android:layout_marginTop="-5dp"
+        android:hint="Put Category Name"
+        android:scaleX="0.8"
+        android:scaleY="0.8" />
+
+    <EditText
+        android:id="@+id/account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/category"
+        android:layout_marginTop="-5dp"
+        android:hint="Put Account Name"
+        android:scaleX="0.8"
+        android:scaleY="0.8" />
+
+    <EditText
+        android:id="@+id/Amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/account"
+        android:layout_marginTop="-5dp"
+        android:hint="Put Adjust Amount"
+        android:scaleX="0.8"
+        android:scaleY="0.8" />
+
+    <DatePicker
+        android:id="@+id/adjustDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Amount"
+        android:layout_centerHorizontal="true"
+        android:scaleX="0.7"
+        android:scaleY="0.6" />
+
+    <EditText
+        android:id="@+id/no_repeats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adjustDate"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        android:scaleX="0.8"
+        android:scaleY="0.8" />
+
+    <EditText
+        android:id="@+id/period"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/no_repeats"
+        android:layout_centerHorizontal="true"
+        android:hint="Put No of Repeat"
+        android:inputType="number"
+        android:scaleX="0.8"
+        android:scaleY="0.8" />
+
+    <Button
+        android:id="@+id/submitAdjuster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Put Adjust Period"
+        android:layout_below="@id/period"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="Submit" />
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/reminderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:hint="Put Reminder Name"
+        android:scaleX="0.8"
+        android:scaleY="0.8" />
+
+    <Spinner
+        android:id="@+id/unit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reminderName"
+        android:layout_marginTop="-5dp"
+        android:prompt="@string/reminderPrompt"
+        android:scaleX="0.8"
+        android:scaleY="0.8" />
+
+    <EditText
+        android:id="@+id/discription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/unit"
+        android:layout_marginTop="-5dp"
+        android:hint="Put Reminder discription"
+        android:scaleX="0.8"
+        android:scaleY="0.8" />
+
+    <DatePicker
+        android:id="@+id/remindDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/discription"
+        android:layout_centerHorizontal="true"
+        android:scaleX="0.7"
+        android:scaleY="0.6" />
+
+    <EditText
+        android:id="@+id/no_repeats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/remindDate"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        android:scaleX="0.8"
+        android:scaleY="0.8" />
+
+    <Button
+        android:id="@+id/submitReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/no_repeats"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="Submit" />
+
+</RelativeLayout>

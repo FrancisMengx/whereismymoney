@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WhereIsMyMoney</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="view_previous_data">View Previous Data</string>
+    <string name="input_new_data">Input New Data</string>
+    <string name="title_activity_tabs_fragment">TabsFragmentActivity</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_pie_chart">PieChartActivity</string>
+    <string name="title_activity_curve">CurveActivity</string>
+    <string name="title_activity_new_data">NewDataActivity</string>
+    <string name="edit_message">Input Item Name</string>
+    <string name="button_name">Confirm</string>
+    <string name="title_activity_curve_fragment">CurveFragment</string>
+    <string name="title_activity_list_fragment">ListFragment</string>
+    <string name="categoryprompt">Choose a category</string>
+    <string name="register_alart">Do not have an account? Register Here!</string>
+    <string name="confirm_prompt_password">Confirm Password</string>
+    <string name="title_activity_manage_account">ManageAccountActivity</string>
+    <string name="title_activity_manager">ManagerActivity</string>
+    <string name="account_mgr">Account Manager</string>
+    <string name="wishlist_mgr">Wish List Manager</string>
+    <string name="reminder_mgr">Reminder Manager</string>
+    <string name="group_mgr">Group Manager</string>
+    <string name="title_activity_wish_list_mgr">WishListMgrActivity</string>
+    <string name="title_activity_reminder_mgr">ReminderMgrActivity</string>
+    <string name="title_activity_group_mgr">GroupMgrActivity</string>
+    <string name = "reminderPrompt">Choose a Unit</string>
+
+</resources>

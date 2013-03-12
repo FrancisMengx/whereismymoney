@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="whereismymoney.activities"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="whereismymoney.activities.LoginActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="whereismymoney.activities.TabsFragmentActivity" >
+        </activity>
+        <activity android:name="org.achartengine.GraphicalActivity" >
+        </activity>
+        <activity android:name="whereismymoney.activities.ListFragment" >
+        </activity>
+        <activity android:name="whereismymoney.activities.PieChartFragment" >
+        </activity>
+        <activity android:name="whereismymoney.activities.CurveFragment" >
+        </activity>
+        <activity android:name="whereismymoney.activities.NewDataFragment" >
+        </activity>
+        <activity android:name="whereismymoney.activities.MainActivity" >
+        </activity>
+        <activity
+            android:name="whereismymoney.activities.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="whereismymoney.activities.ManageAccountActivity"
+            android:label="@string/title_activity_manage_account" >
+        </activity>
+        <activity
+            android:name="whereismymoney.activities.ManagerActivity"
+            android:label="@string/title_activity_manager" >
+        </activity>
+        <activity
+            android:name="whereismymoney.activities.WishListMgrActivity"
+            android:label="@string/title_activity_wish_list_mgr" >
+        </activity>
+        <activity
+            android:name="whereismymoney.activities.ReminderMgrActivity"
+            android:label="@string/title_activity_reminder_mgr" >
+        </activity>
+        <activity
+            android:name="whereismymoney.activities.GroupMgrActivity"
+            android:label="@string/title_activity_group_mgr" >
+        </activity>
+    </application>
+
+</manifest>

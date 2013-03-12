@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/hintWishItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Name:" />
+
+    <TextView
+        android:id="@+id/wishItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hintWishItemName"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/hintCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wishItemName"
+        android:text="Cost:" />
+
+    <TextView
+        android:id="@+id/itemCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hintCost"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/hintfunds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemCost"
+        android:text="Total Funds:" />
+
+    <TextView
+        android:id="@+id/funds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hintfunds"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/hintafterfunds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/funds"
+        android:text="Funds After Purchase:" />
+
+    <TextView
+        android:id="@+id/fundsafterpurchase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hintafterfunds"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/dismiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fundsafterpurchase"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="OK" />
+
+</RelativeLayout>

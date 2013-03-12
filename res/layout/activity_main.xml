@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="58"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical = "true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight = "20dp"
+	    > 
+    <Button
+        android:id="@+id/previous_data"
+        android:text="@string/view_previous_data"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+         />
+    <Button 
+        android:id="@+id/new_data"
+        android:text="@string/input_new_data"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/previous_data"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical = "true"
+        android:layout_marginTop="30dp"
+        />
+    </RelativeLayout>   
+</RelativeLayout>
